@@ -27,7 +27,5 @@ var event = setInterval(() => {
         b %= 16;
         blue.textContent = HexNum[b];
     }
-    console.log('#' + HexNum[r] + HexNum[g] + HexNum[b])
     body.style.backgroundColor = '#' + HexNum[r] + HexNum[g] + HexNum[b];
-    
 },500);
